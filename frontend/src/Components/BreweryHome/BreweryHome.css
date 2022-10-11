@@ -1,0 +1,147 @@
+.brewery-home--wrapper {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-areas: "brew-selection brewery-description";
+  padding: 0;
+  margin-top: 20px;
+}
+
+/* header {
+  grid-area: header;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+.header-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24;
+  line-height: 54px;
+}
+
+/* button {
+  padding: 20px 50px;
+  border: none;
+  background: #e0b973;
+  border-radius: 15px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+} */
+
+.brew-selection {
+  grid-area: brew-selection;
+
+  padding-left: 20px;
+}
+
+.brew-selection--image {
+  width: 250px;
+  border: 2px #e8b504 solid;
+  border-radius: 10px;
+}
+.brew-selection--header {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 59px;
+  color: #e8b504;
+}
+.brew-selection--name {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 44px;
+  color: #000000;
+}
+
+.brewery-description {
+  grid-area: brewery-description;
+  padding: 20px;
+}
+
+.brewery-photos {
+  /* display: flex;
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden; */
+}
+.brewery-photos--image {
+  width: 400px;
+  margin-bottom: 20px;
+  /* margin: 0 20px; */
+}
+
+.descriptors {
+  display: inline;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  /* line-height: 78px; */
+  color: #e8b504;
+}
+
+.brewery-description--brewery-name {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  color: #e8b504;
+  margin-top: 10px;
+}
+.brewery-description--brewery-address,
+.brewery-description--brewery-rating,
+.brewery-description--brewery-hours,
+.brewery-description--brewery-history-title,
+.brewery-description--brewery-history-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 44px;
+
+  color: #000000;
+}
+
+/* .brewery-description--brewery-history-text{
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 44px;
+    color: #000000;
+} */
+
+/* .brewery-description--brewery-rating-symbols {
+  height: 30px;
+}
+
+.brewery-description--brewery-rating-wrapper {
+  display: flex;
+  align-items: center;
+} */
+
+@media only screen and (max-width: 720px) {
+  .brewery-photos--image {
+    width: 300px;
+  }
+  .brew-selection--image {
+  width: 200px;
+}
+.brew-selection--header {
+  line-height: 30px;
+}
+
+}
+
+

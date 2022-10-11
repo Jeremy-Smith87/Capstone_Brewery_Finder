@@ -1,0 +1,124 @@
+/* * {
+  border: 1px red solid;
+} */
+.component-wrapper {
+  padding: 20px;
+}
+.favorite-breweries--wrapper {
+  display: flex;
+  overflow: scroll;
+  gap: 20px;
+  padding: 20px;
+}
+.favorite-breweries--photo {
+  height: 250px;
+}
+.favorite-breweries--single-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.favorite-breweries--brewery-name {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 30px;
+}
+.favorite-breweries--title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 59px;
+}
+
+.discover-breweries--heading {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 59px;
+}
+
+.discover-breweries--single-brewery--wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  border: 1px black solid;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.single-brewery-photo {
+  width: 300px;
+}
+
+.single-brewery--right {
+  padding-left: 30px;
+}
+
+.single-brewery--left {
+  margin-bottom: 20px;
+}
+
+.single-brewery--name {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #e8b504;
+}
+
+.single-brewery--address,
+.single-brewery--rating-title,
+.single-brewery--reviews,
+.single-brewery--history-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+.single-brewery--rating-images {
+  height: 20px;
+}
+
+.single-brewery--rating-wrapper {
+  display: flex;
+}
+
+.single-brewery--history-text {
+  font-family: "Montserrat";
+  font-style: italic;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.single-brewery--explore-button {
+  width: 25%;
+  padding: 10px 0px;
+  margin: 10px 0 0 0;
+  border: none;
+  background: #e0b973;
+  border-radius: 10px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  text-align: center;
+}
+
+@media only screen and (max-width: 760px) {
+  .discover-breweries--single-brewery--wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+}

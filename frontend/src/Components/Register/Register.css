@@ -1,0 +1,17 @@
+.create-account-wrapper {
+  margin: auto;
+  width: 50%;
+}
+.create-account {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 50px;
+}
+
+.have-an-account{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}

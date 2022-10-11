@@ -1,0 +1,59 @@
+.AdminHome--container {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Header--color-bar {
+    margin-top: -20px;
+}
+
+.AdminHome--grid-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    'breweryImg userImg'
+    'addBreweryBtn addUserBtn'
+    ;
+}
+
+.AdminHome--addBreweryImg {
+    grid-area: breweryImg;
+    width: 364px;
+    height: 283.5px;
+    justify-self: center;
+}
+
+.AdminHome--addBreweryTxt {
+    grid-area: addBreweryBtn;
+    justify-self: center;
+    margin-top: 10px;
+}
+
+.AdminHome--addUserImg {
+    grid-area: userImg;
+    width: 364px;
+    height: 283.5;
+    justify-self: center;
+}
+
+.AdminHome--addUserTxt {
+    grid-area: addUserBtn;
+    justify-self: center;
+    margin-top: 10px;
+}
+
+.AdminHome--discover {
+    font-weight: 700;
+    margin: 0 0 50px 50px;
+}
+
+.AdminHome--breweryList {
+    margin: 0 0 50px;
+    text-align: center;
+}
+
+.wrapper-wrapper {
+    padding: 20px;
+}

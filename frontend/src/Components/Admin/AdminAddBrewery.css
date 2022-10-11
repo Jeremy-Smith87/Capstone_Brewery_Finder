@@ -1,0 +1,79 @@
+.AdminAddBrewer--container {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+h3 {
+    font-weight: 700;
+    margin: 55px 0 35px 35px;
+}
+
+.AdminAddBrewery--form-container {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    'left right'
+    'left right'
+    'left right'
+    'left right'
+    'left right'
+    'left right'
+    'left right'
+    'btn btn'
+    ;
+}
+
+.form-left {
+    grid-area: left;
+}
+
+.form-right {
+    grid-area: right;
+}
+
+#history {
+    width: 350px;
+    height: 130px;
+    border: solid 1px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.AdminAddBrewer--form-container {
+    font-size: .8em;
+    font-weight: 500;
+}
+
+.AdminAddBrewer--form-left label {
+    margin-bottom: 5px;
+}
+
+.AdminAddBrewer--form-left input {
+    border: solid 1px;
+    border-radius: 6px;
+    width: 350px;
+    height: 35px;
+    margin-bottom: 15px;
+}
+
+#active {
+    margin-top: 25px;
+}
+
+.imageUpload {
+    margin: 35px 0 15px 0;
+}
+
+.AdminAddBrewery--form-submitBtn {
+    grid-area: btn;
+    background-color: #E0B973;
+    color: white;
+    margin-top: 20px;
+    padding: 3px;
+    width: 200px;
+    height: 35px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 6px;
+}

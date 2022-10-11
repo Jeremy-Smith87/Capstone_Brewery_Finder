@@ -1,0 +1,16 @@
+.brewer-button {
+  width: 25%;
+  padding: 10px 0px;
+  margin: 10px 0 10px 0;
+  border: none;
+  background: #e0b973;
+  border-radius: 10px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  text-align: center;
+}

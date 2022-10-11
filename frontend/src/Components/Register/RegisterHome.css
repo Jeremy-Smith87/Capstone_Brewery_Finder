@@ -1,0 +1,80 @@
+.RegisterHome--container {
+    background-color: #002049;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.Header--color-bar {
+    /* height: 1000px; */
+    background-color: white;
+    margin-top: -20px;
+    /* margin-bottom: 40px; */
+}
+
+.RegisterHome--content-displays {
+    width: 573px;
+    height: 378px;
+}
+
+.RegisterHome--content-container {
+    background-color: white;
+    margin-top: -25px;
+    padding: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    'beerImg brewerImg'
+    'beerTxt brewerTxt'
+    'beerBtn brewerBtn'
+    ;
+}
+
+.RegisterHome--content-beerImg {
+    grid-area: beerImg;
+    margin-right: 60px;
+}
+
+.RegisterHome--content-beerTxt {
+    grid-area: beerTxt;
+    margin: 10px 30px 40px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.RegisterHome--content-beerBtn {
+    grid-area: beerBtn;
+    background-color: #E0B973;
+    color: white;
+    padding: 17px;
+    width: 250px;
+    height: 61px;
+    text-align: center;
+    font-size: 20px;
+    justify-self: center;
+    border-radius: 6px;
+    
+}
+
+.RegisterHome--content-brewerImg {
+    grid-area: brewerImg;
+}
+
+.RegisterHome--content-brewerTxt {
+    grid-area: brewerTxt;
+    margin: 10px 30px 40px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.RegisterHome--content-brewerBtn {
+    grid-area: brewerBtn;
+    background-color: #E0B973;
+    color: white;
+    padding: 17px;
+    width: 250px;
+    height: 61px;
+    text-align: center;
+    font-size: 20px;
+    justify-self: center;
+    border-radius: 6px;
+}

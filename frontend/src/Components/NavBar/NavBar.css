@@ -1,0 +1,96 @@
+.NavBar--nav {
+  font-family: "Montserrat", sans-serif;
+}
+
+.NavBar--home-button {
+  width: 187px;
+  height: 68px;
+  color: #14274a;
+  background-color: #e0b973;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  text-align: center;
+  margin-left: 100px;
+}
+
+.NavBar--nav-h1 {
+  margin: 0;
+  font-size: 24px;
+  line-height: 59px;
+  letter-spacing: 0.15em;
+}
+
+.NavBar--nav-h4 {
+  margin: -20px;
+  font-size: 15px;
+  letter-spacing: 0.6em;
+}
+
+.NavBar--nav-container {
+  display: flex;
+}
+.NavBar--blue-box {
+  background-color: #002049;
+  height: 58px;
+}
+.NavBar--empty {
+  flex-grow: 3;
+}
+
+.NavBar--nav-list {
+  flex-grow: 1;
+  display: flex;
+  margin-top: -10px;
+  /* align-items: center; */
+  color: white;
+}
+
+.NavBar--nav-list li {
+  list-style: none;
+  margin-left: 0;
+  margin-right: auto;
+  margin-top: 25px;
+  font-size: 0.85em;
+}
+a:link {
+  text-decoration: none;
+}
+a {
+  color: inherit;
+}
+
+.NavBar--nav-list li:first-child {
+  text-decoration: underline;
+  font-weight: bold;
+  text-underline-offset: 5px;
+}
+
+@media only screen and (max-width: 864px) {
+  .NavBar--blue-box {
+    background-color: #002049;
+    height: 100px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .NavBar--blue-box {
+    background-color: #002049;
+    height: 100px;
+  }
+  .NavBar--nav-list {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    /* align-items: center; */
+    color: white;
+  }
+
+  .NavBar--nav-list li {
+    list-style: none;
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: 5px;
+    font-size: 0.85em;
+  }
+}

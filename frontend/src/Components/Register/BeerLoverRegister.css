@@ -1,0 +1,145 @@
+/* .BeerLoverRegister--container {
+    background-color: #002049;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.BeerLoverRegister--content-container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.BeerLoverRegister--form-container {
+    position: relative;
+    color: #09101D;
+    padding: 100px;
+    
+}
+
+.BeerLoverRegister--content-container input {
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    border: solid 1px;
+    margin-bottom: 10px;
+}
+
+.BeerLoverRegister--content-container label {
+    font-size: .7em;
+}
+
+.BeerLoverRegister--form-submitBtn {
+    background-color: #E0B973;
+    color: white;
+    margin: 30px 0 0 70px;
+    padding: 5px;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 6px;
+} */
+
+.star {
+    color: #DA1414;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    background-color: white;
+}
+
+section {
+    margin: 5vh auto;
+    width: 100%;
+    max-width: 420px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    filter: drop-shadow(0 0 0.25rem darkgrey);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    padding-bottom: 1rem;
+}
+
+a, a:visited {
+    color: #fff;
+}
+
+input[type="text"],
+input[type="password"],
+button,
+textarea {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+label,
+button {
+  margin-top: 1rem;
+}
+
+button {
+  padding: 0.5rem;
+  width: 10rem;
+  
+}
+
+.instructions {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: #000;
+    color: #fff;
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
+}
+
+.instructions > svg {
+    margin-right: 0.25rem;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.hide {
+    display: none;
+}
+
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+
+.invalid {
+    color: red;
+    margin-left: 0.25rem;
+}
+
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.line {
+    display: inline-block;
+}
+

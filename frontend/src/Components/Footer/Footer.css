@@ -1,0 +1,30 @@
+.Footer--container {
+    display: flex;
+    background-color: #002049;
+    color: white;
+    
+}
+
+.empty {
+    flex-grow: 1;
+}
+
+.Footer--content {
+    margin: 40px 40px 20px 40px;
+}
+
+.Footer--contact-list {
+    font-size: 10px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Footer--contact-list li {
+    list-style: none;
+}
+
+.Footer--socialMedia {
+    justify-content: right;
+    
+}
+
